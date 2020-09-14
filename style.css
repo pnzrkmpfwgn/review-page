@@ -124,6 +124,10 @@ header {
 }
 
 @media (max-width: 426px) {
+  body {
+    background-image: url('./images/bg-pattern-top-mobile.svg');
+    background-position: center;
+  }
   header {
     display: flex;
     flex-direction: column;
